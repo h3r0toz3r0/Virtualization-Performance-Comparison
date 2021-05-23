@@ -1,6 +1,18 @@
 # Virtualization Performance Comparison
 
 ## Overview
+Experiments for the IEEE HPEC 2021 conference paper "Performance Evaluation Comparison Between Docker and Hypervisor Virtualization." 
+Paper Link : X
+
+## Useage 
+```
+    chmod u+x script_<benchmark>_<native/docker/vm>.sh
+    sudo ./script_<benchmark>_<native/docker/vm>.sh
+    
+        Output: results_<benchmark>_<native/docker/vm>.csv
+```
+
+## Content
 1) iozone_benchmark
     - Dockerfile
     - script_iozone_docker.sh
