@@ -6,10 +6,10 @@ Paper Link : X
 
 ## Useage 
 ```
-    chmod u+x script_<benchmark>_<native/docker/vm>.sh
-    sudo ./script_<benchmark>_<native/docker/vm>.sh
+chmod u+x script_<benchmark>_<native/docker/vm>.sh
+sudo ./script_<benchmark>_<native/docker/vm>.sh
     
-        Output: results_<benchmark>_<native/docker/vm>.csv
+Output: results_<benchmark>_<native/docker/vm>.csv
 ```
 
 ## Content
