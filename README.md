@@ -1,2 +1,5 @@
 # Virtualization Performance Comparison
-TO DO
+
+## Resources
+1) d
+2) d
