@@ -6,30 +6,30 @@ Paper Link : X
 
 ## Useage 
 ```
-chmod u+x script_<benchmark>_<native/docker/vm>.sh
-sudo ./script_<benchmark>_<native/docker/vm>.sh
+chmod u+x script_<benchmark>.sh
+sudo ./script_<benchmark>.sh [options]
     
-Output: results_<benchmark>_<native/docker/vm>.csv
+output: results_<benchmark>_<docker/system>.csv
 ```
+
+options:
+-h, --help                show brief help
+-n, --number=NUMBER       specify number of experiments iterations (default 10)
+-s, --system=SYSTEM       specify docker or system (default system)
 
 ## Content
 1) iozone_benchmark
     - Dockerfile
-    - script_iozone_docker.sh
-    - script_iozone_native.sh
-    - script_iozone_vm.sh
+    - script_iozone.sh
 2) linpack_benchmark
     - Dockerfile
-    - linpack.c
-    - script_linpack_docker.sh
-    - script_linpack_native.sh
-    - script_linpack_vm.sh
+    - script_linpack.sh
 3) netperf_benchmark
     - Dockerfile
+    - script_netperf.sh
 4) stream_benchmark
     - Dockerfile
     - script_stream.sh
-    - script_stream_results.py 
 5) results_figures
     - benchmark_results.xlsm
     - iozone_figure_read.png
