@@ -4,6 +4,14 @@
 Experiments for the IEEE HPEC 2021 conference paper "Performance Evaluation Comparison Between Docker and Hypervisor Virtualization." 
 Paper Link : X
 
+## Authors
+- Anna DeVries
+- Shane Conaboy
+- Mark Tiburu
+- Li Wang
+
+Department of Electrical and Computer Engineering, Northeastern University.
+
 ## Useage 
 ```
 chmod u+x script_<benchmark>.sh
