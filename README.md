@@ -24,7 +24,12 @@ sudo ./script_<benchmark>.sh [options]
 options:
 -h, --help                show brief help
 -n, --number=NUMBER       specify number of experiments iterations (default 10)
--s, --system=SYSTEM       specify docker or system (default system)   
+-s, --system=SYSTEM       specify docker or system (default system) 
+
+Example useage:
+sudo ./script_linpack.sh -s docker # will run 10 iterations of linpack with docker containers 
+
+sudo ./script_netperf.sh -n 20 -s system # will ruun 20 iterations of netperf on the system
 ```
 
 ## Benchmark
