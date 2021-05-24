@@ -8,14 +8,12 @@ Paper Link : X
 ```
 chmod u+x script_<benchmark>.sh
 sudo ./script_<benchmark>.sh [options]
-    
-output: results_<benchmark>_<docker/system>.csv
-```
 
 options:
 -h, --help                show brief help
 -n, --number=NUMBER       specify number of experiments iterations (default 10)
--s, --system=SYSTEM       specify docker or system (default system)
+-s, --system=SYSTEM       specify docker or system (default system)   
+```
 
 ## Content
 1) iozone_benchmark
