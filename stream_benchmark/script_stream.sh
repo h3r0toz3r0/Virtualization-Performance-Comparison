@@ -53,13 +53,10 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-echo $N 
-echo $SYSTEM 
-
-# clean system of linpack stuff
+# clean system of stream stuff
 rm -rf stream*
 
-# pull linpack script from website
+# pull stream script from website
 wget https://www.cs.virginia.edu/stream/FTP/Code/stream.c
 
 # if running experiment on system
