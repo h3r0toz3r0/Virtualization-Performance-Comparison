@@ -53,9 +53,6 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-echo $N 
-echo $SYSTEM 
-
 # clean system of linpack stuff
 rm -rf linpack*
 
