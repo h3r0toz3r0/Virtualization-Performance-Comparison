@@ -116,7 +116,7 @@ if [[ $SYSTEM = "docker" ]]; then
 
     # set up results
     rm -rf results_iozone_system.csv
-    echo "size,reclen,write,read" > results_iozone_system.csv
+    echo "size,reclen,write,read" > results_iozone_docker.csv
 
     # run all sizes
     for j in  "${sizes[@]}"   
@@ -136,7 +136,7 @@ if [[ $SYSTEM = "docker" ]]; then
             read=$(cat run.txt | awk 'FNR == 31 {print $5}')
 
             # add results to file
-            echo "$j,$reclen,$write,$read" >> results_iozone_system.csv
+            echo "$j,$reclen,$write,$read" >> results_iozone_docker.csv
 
             # remove run file
             rm run.txt
